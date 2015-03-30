@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+    <data>
+    	
+    	<menuitem id="menu_cmm" name="GMAO"  sequence="18" action="open_board_travaux" />
+        <!-- machine -->
+        <menuitem id="menu_open_view_machine" name="Machine" parent="menu_cmm" sequence="3"/>
+              <menuitem id="menu_open_view_equipment_new2" parent="menu_open_view_machine" action="open_view_equipment_new"/>
+
+    	<!-- intervention -->  
+        <menuitem id="menu_open_view_intervention_list" name="Intervention" parent="menu_cmm" sequence="4"/>  
+              <menuitem id="menu_open_view_intervention_new" parent="menu_open_view_intervention_list" action="open_view_intervention_new"/>
+    		  
+    	<!-- corrective & preventive maintenance -->	       
+       <menuitem id="menu_open_view_cm_list" name="Maintenance" parent="menu_cmm" sequence="5"/>         
+              <menuitem id="menu_open_view_cm_new" parent="menu_open_view_cm_list" action="open_view_cm_new"/>
+              <menuitem id="menu_open_view_pm_new" parent="menu_open_view_cm_list" action="open_view_pm_new"/>
+              
+        	
+       <!-- bon travail --> 
+       <menuitem id="menu_open_view_incident_list" name="Work order" parent="menu_cmm" sequence="6"/>
+             <menuitem action="open_view_incident_new" name="incident" id="menu_open_view_incident_new2" parent="menu_open_view_incident_list" /> 	         
+    
+       <!-- liste controle -->
+       <menuitem id="menu_cmms_checklist_history" name="Checklist" parent="menu_cmm" sequence="7"/>
+             <menuitem id="menu_cmms_checklist_history_new" name="Fill a checklist" action="cmms_checklist_history_action_new" parent="menu_cmms_checklist_history" />
+             <menuitem id="menu_cmms_checklist_all" name="All checklists" action="cmms_checklist_action_all" parent="menu_cmms_checklist_history" sequence="5" />       
+
+       <!-- configuration -->
+       <menuitem id="menu_cmms_configuration" name="Configuration" sequence="8" parent="menu_cmm" /> 		 
+    		 <menuitem id="menu_open_view_line_new2" parent="menu_cmms_configuration" action="open_view_line_new"/>
+             <menuitem id="menu_open_view_failure_new" parent="menu_cmms_configuration" action="open_view_failure_new"/>
+             <menuitem id="menu_open_view_link" parent="menu_cmms_configuration" action="open_view_link"/>
+             
+      <menuitem id="menu_cmms_config" name="CMMS" parent="base.menu_config" sequence="14" action="action_cmms_config"/>
+    </data>
+</openerp>

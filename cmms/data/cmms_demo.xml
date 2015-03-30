@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+     <data noupdate="1">
+	    
+	    <record model="cmms.parameter.mail" id="cmms_event_mail">
+	            <field name="name">Serveur par défaut du cmms</field>
+	            <field name="module">cmms</field>
+	            <field name="is_param" eval="True" />
+	    </record>
+	    
+        <record id="line1" model="cmms.request.link">
+            <field name="name">Corrective Maintenance</field>
+            <field name="object">cmms.cm</field>
+            <field name="priority">5</field>
+        </record>
+         <record id="line2" model="cmms.request.link">
+            <field name="name">Preventive Maintenance </field>
+            <field name="object">cmms.pm</field>
+            <field name="priority">5</field>
+        </record>
+        <record id="line3" model="cmms.request.link">
+            <field name="name">checklist</field>
+            <field name="object">cmms.checklist.history</field>
+            <field name="priority">5</field>
+        </record>
+	<record id="line4" model="cmms.request.link">
+            <field name="name">Intervention request</field>
+            <field name="object">cmms.intervention</field>
+            <field name="priority">5</field>
+        </record>
+    </data>
+</openerp>

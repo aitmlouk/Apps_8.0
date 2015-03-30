@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="1">
+        <!-- Sequences for cmms.incident -->
+        <record id="seq_type_cmms_incident" model="ir.sequence.type">
+            <field name="name">cmms incident</field>
+            <field name="code">cmms.incident</field>
+        </record>
+        <record id="seq_cmms_incident" model="ir.sequence">
+            <field name="name">cmms incident</field>
+            <field name="code">cmms.incident</field>
+            <field name="prefix">Intervention card-</field>
+            <field name="padding">5</field>
+        </record>
+
+       <!-- Sequences for cmms.pm -->
+        <record id="seq_type_cmms_pm" model="ir.sequence.type">
+            <field name="name">cmms pm</field>
+            <field name="code">cmms.pm</field>
+        </record>
+        <record id="seq_cmms_pm" model="ir.sequence">
+            <field name="name">cmms pm</field>
+            <field name="code">cmms.pm</field>
+            <field name="prefix">PM-</field>
+            <field name="padding">5</field>
+        </record> 
+
+       <!-- Sequences for cmms.cm -->
+        <record id="seq_type_cmms_cm" model="ir.sequence.type">
+            <field name="name">cmms cm</field>
+            <field name="code">cmms.cm</field>
+        </record>
+        <record id="seq_cmms_cm" model="ir.sequence">
+            <field name="name">cmms cm</field>
+            <field name="code">cmms.cm</field>
+            <field name="prefix">CM-</field>
+            <field name="padding">5</field>
+        </record> 
+
+         <!-- Sequences for cmms.questionnaire.history -->
+        <record id="seq_type_cmms_checklist_history" model="ir.sequence.type">
+            <field name="name">cmms history</field>
+            <field name="code">cmms.checklist.history</field>
+        </record>
+        <record id="seq_cmms_checklist_history" model="ir.sequence">
+            <field name="name">cmms history</field>
+            <field name="code">cmms.checklist.history</field>
+            <field name="prefix">Checklist-</field>
+            <field name="padding">5</field>
+        </record> 
+
+              <!-- Sequences for cmms.equipment -->
+        <record id="seq_type_cmms_equipment" model="ir.sequence.type">
+            <field name="name">cmms equipment</field>
+            <field name="code">cmms.equipment</field>
+        </record>
+        <record id="seq_cmms_equipment" model="ir.sequence">
+            <field name="name">cmms equipment</field>
+            <field name="code">cmms.equipment</field>
+            <field name="prefix">EQUIPEMENT-</field>
+            <field name="padding">5</field>
+        </record> 
+
+              <!-- Sequences for cmms.intervention -->
+        <record id="seq_type_cmms_intervention" model="ir.sequence.type">
+            <field name="name">cmms intervention</field>
+            <field name="code">cmms.intervention</field>
+        </record>
+        <record id="seq_cmms_intervention" model="ir.sequence">
+            <field name="name">cmms intervention</field>
+            <field name="code">cmms.intervention</field>
+            <field name="prefix">INTERVENTION-</field>
+            <field name="padding">5</field>
+        </record> 
+
+    </data>
+</openerp>

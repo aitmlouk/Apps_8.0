@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<openerp>
+	<data>
+		<record id="group_cmms_user" model="res.groups">
+			<field name="name">cmmc-user</field>
+		</record>
+
+		<record id="group_cmms_manager" model="res.groups">
+			<field name="name">cmms-manager</field>
+		</record>
+
+    </data>
+</openerp>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+    <data>
+    
+    	<record id="view_cmms_config_settings" model="ir.ui.view">
+            <field name="name">configuration cmms</field>
+            <field name="model">cmms.config.settings</field>
+            <field name="arch" type="xml">
+                <form string="Configuration" version="7.0" class="oe_form_configuration">
+                    <header>
+                        <button string="Valider" type="object" name="execute" class="oe_highlight"/>
+                        ou
+                        <button string="Annuler" type="object" name="cancel" class="oe_link"/>
+                    </header>
+                    <group string="Serveur de messagerie" >
+                    <field name="server_cmms" />
+                    </group>
+
+                </form>
+            </field>
+        </record>
+        
+        <record id="action_cmms_config" model="ir.actions.act_window">
+            <field name="name">Configurer cmms</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">cmms.config.settings</field>
+            <field name="view_mode">form</field>
+            <field name="target">inline</field>
+        </record>
+
+    
+     <!-- ============================  parameter mail ================================================================= -->
+    
+    <!-- search -->
+    
+    <record model="ir.ui.view" id="cmms_parameter_mail_search">
+            <field name="name">cmms.parameter.mail.search</field>
+            <field name="model">cmms.parameter.mail</field>
+            <field name="type">search</field>
+            <field name="arch" type="xml">
+                <search string="Recherche paramètres de serveurs de messagerie">
+                    <field name="name"/>
+                </search>
+            </field>
+    </record>
+    
+    <!-- tree -->
+    
+    <record model="ir.ui.view" id="cmms_parameter_mail_tree">
+            <field name="name">cmms.parameter.mail.tree</field>
+            <field name="model">cmms.parameter.mail</field>
+            <field name="type">tree</field>
+            <field name="arch" type="xml">
+                <tree string="Paramétrage des serveurs de messagerie" editable="bottom">
+                	<field name="name"/>
+                    <field name="server" />
+                    <field name="mail_from" />
+                </tree>
+            </field>
+    </record>
+     
+     
+    </data>
+</openerp>

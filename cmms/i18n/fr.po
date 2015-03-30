@@ -1,0 +1,831 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+#	* cmms
+#
+# Christophe, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 6.0.3\n"
+"Report-Msgid-Bugs-To: support@openerp.com\n"
+"POT-Creation-Date: 2011-12-07 17:27+0000\n"
+"PO-Revision-Date: 2011-12-07 18:39+0100\n"
+"Last-Translator: Christophe\n"
+"Language-Team: French <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+"X-Generator: Lokalize 1.0\n"
+
+#. module: cmms
+#: field:cmms.checklist,name:0
+msgid "Title"
+msgstr "Titre"
+
+#. module: cmms
+#: model:ir.actions.act_window,name:cmms.open_view_line_new
+#: model:ir.ui.menu,name:cmms.menu_open_view_line_new2
+msgid "New production line"
+msgstr "Ligne de production"
+
+#. module: cmms
+#: model:ir.model,name:cmms.model_cmms_failure
+msgid "failure cause"
+msgstr "Cause de panne"
+
+#. module: cmms
+#: field:cmms.cm,user_id:0
+msgid "manager"
+msgstr "Responsable"
+
+#. module: cmms
+#: field:cmms.cm,failure_id:0
+msgid "Failure?"
+msgstr "Panne ?"
+
+#. module: cmms
+#: model:ir.actions.act_window,name:cmms.open_view_line_list_my
+#: model:ir.ui.menu,name:cmms.menu_open_view_line_list_my
+msgid "All production lines"
+msgstr "Lignes de production"
+
+#. module: cmms
+#: model:ir.actions.act_window,name:cmms.cmms_incident_act
+#: model:ir.ui.menu,name:cmms.menu_cmms_incident_act
+msgid "All work orders"
+msgstr "Bons de travail"
+
+#. module: cmms
+#: field:cmms.request.link,object:0
+msgid "Object"
+msgstr "Objet"
+
+#. module: cmms
+#: model:cmms.request.link,name:cmms.line2
+msgid "Preventive Maintenance "
+msgstr "Maintenance préventive"
+
+#. module: cmms
+#: field:cmms.archiving3,incident_id:0
+#: view:cmms.incident:0
+#: model:ir.model,name:cmms.model_cmms_incident
+msgid "Incident"
+msgstr "Incident"
+
+#. module: cmms
+#: field:cmms.equipment,description:0
+#: field:cmms.equipment,type:0
+msgid "Unit of work reference"
+msgstr "Référence machine"
+
+#. module: cmms
+#: field:cmms.pm,days_left:0
+msgid "Staying days"
+msgstr "Jours restants"
+
+#. module: cmms
+#: view:cmms.request.link:0
+msgid "Request Link"
+msgstr "Liens requis"
+
+#. module: cmms
+#: model:ir.model,name:cmms.model_cmms_archiving
+msgid "CM follow-up History"
+msgstr "Historique maintenance corrective"
+
+#. module: cmms
+#: field:cmms.intervention,user_id:0
+msgid "Sender"
+msgstr "Émetteur"
+
+#. module: cmms
+#: selection:cmms.intervention,type:0
+msgid "Repair"
+msgstr "Réparation"
+
+#. module: cmms
+#: field:cmms.checklist.history,equipment_id:0
+#: field:cmms.cm,equipment_id:0
+#: view:cmms.equipment:0
+#: field:cmms.incident,equipment_id:0
+#: field:cmms.intervention,equipment_id:0
+#: field:cmms.pm,equipment_id:0
+#: model:ir.actions.act_window,name:cmms.open_view_equipment_list
+#: model:ir.ui.menu,name:cmms.menu_open_view_equipment_list
+msgid "Unit of work"
+msgstr "Machine"
+
+#. module: cmms
+#: view:cmms.cm:0
+#: field:cmms.cm,note:0
+msgid "Notes"
+msgstr "Notes"
+
+#. module: cmms
+#: selection:cmms.pm,meter:0
+msgid "Days"
+msgstr "Jours"
+
+#. module: cmms
+#: model:ir.model,name:cmms.model_cmms_archiving3
+msgid "Incident follow-up history"
+msgstr "Historique des pannes"
+
+#. module: cmms
+#: model:ir.module.module,shortdesc:cmms.module_meta_information
+msgid "Computerized maintenance management system"
+msgstr "Gestion de Maintenance Assisté par Ordinateur"
+
+#. module: cmms
+#: field:cmms.equipment,deadlinegar:0
+msgid "Deadline of guarantee"
+msgstr "Date de fin de garantie"
+
+#. module: cmms
+#: model:ir.actions.act_window,name:cmms.open_view_cm_list_my
+#: model:ir.ui.menu,name:cmms.menu_open_view_cm_list_my
+msgid "All Correctives maintenances"
+msgstr "Maintenances correctives"
+
+#. module: cmms
+#: model:ir.actions.act_window,name:cmms.open_view_cm_new
+#: model:ir.ui.menu,name:cmms.menu_open_view_cm_new
+msgid "New corrective maintenance"
+msgstr "Maintenance corrective"
+
+#. module: cmms
+#: field:cmms.pm,days_last_done:0
+msgid "Begun the"
+msgstr "Commencé le"
+
+#. module: cmms
+#: model:ir.actions.act_window,name:cmms.open_view_incident_new
+#: model:ir.ui.menu,name:cmms.menu_open_view_incident_new2
+msgid "New work order"
+msgstr "Bon de travail"
+
+#. module: cmms
+#: selection:cmms.intervention,type:0
+msgid "Check"
+msgstr "Vérification"
+
+#. module: cmms
+#: field:cmms.pm,name:0
+msgid "Ref PM"
+msgstr "Ref maintenance préventive"
+
+#. module: cmms
+#: selection:cmms.checklist.history,status:0
+#: selection:cmms.incident,state:0
+msgid "Confirmed"
+msgstr "Confirmé"
+
+#. module: cmms
+#: field:cmms.diagnosistab,cm_id:0
+#: model:cmms.request.link,name:cmms.line1
+msgid "Corrective Maintenance"
+msgstr "Maintenance corrective"
+
+#. module: cmms
+#: view:cmms.equipment:0
+#: field:cmms.equipment,product_ids:0
+msgid "Piece of change"
+msgstr "Piece de rechange"
+
+#. module: cmms
+#: view:cmms.incident:0
+msgid "Incident state"
+msgstr "État"
+
+#. module: cmms
+#: field:cmms.answer.history,name:0
+#: field:cmms.question,name:0
+#: model:ir.model,name:cmms.model_cmms_question
+msgid "Question"
+msgstr "Question"
+
+#. module: cmms
+#: field:cmms.incident,priority:0
+#: field:cmms.request.link,priority:0
+msgid "Priority"
+msgstr "Priorité"
+
+#. module: cmms
+#: field:cmms.checklist,equipment_id:0
+#: view:cmms.equipment:0
+msgid "Equipment"
+msgstr "Équipement"
+
+#. module: cmms
+#: field:cmms.incident,state:0
+msgid "State"
+msgstr "État"
+
+#. module: cmms
+#: field:cmms.equipment,local_id:0
+#: field:cmms.line,location:0
+msgid "Location"
+msgstr "Emplacement"
+
+#. module: cmms
+#: view:cmms.equipment:0
+msgid "Unit of work description"
+msgstr "Description machine"
+
+#. module: cmms
+#: field:cmms.checklist.history,answers_ids:0
+msgid "Responses"
+msgstr "Réponses"
+
+#. module: cmms
+#: model:ir.actions.act_window,name:cmms.cmms_incident_act_done
+#: model:ir.ui.menu,name:cmms.menu_cmms_incident_act_done
+msgid "Done work orders"
+msgstr "Bons de travail terminés"
+
+#. module: cmms
+#: view:cmms.checklist.history:0
+#: model:ir.model,name:cmms.model_cmms_answer_history
+msgid "Answers"
+msgstr "Réponses"
+
+#. module: cmms
+#: field:cmms.checklist.history,name:0
+msgid "Checklist name"
+msgstr "Nom liste de contrôle"
+
+#. module: cmms
+#: field:cmms.failure,name:0
+#: model:ir.actions.act_window,name:cmms.open_view_failure_new
+#: model:ir.ui.menu,name:cmms.menu_open_view_failure_new
+msgid "Type of failure"
+msgstr "Type de panne"
+
+#. module: cmms
+#: field:cmms.line,code:0
+msgid "Line reference"
+msgstr "Référence ligne de production"
+
+#. module: cmms
+#: view:cmms.incident:0
+msgid "References"
+msgstr "Références"
+
+#. module: cmms
+#: field:cmms.incident,name:0
+msgid "Work order reference"
+msgstr "Référence bon de travail"
+
+#. module: cmms
+#: model:ir.ui.menu,name:cmms.menu_cmms_configuration
+msgid "Configuration"
+msgstr "Configuration"
+
+#. module: cmms
+#: view:cmms.intervention:0
+#: field:cmms.intervention,observation:0
+msgid "Observation"
+msgstr "Observation"
+
+#. module: cmms
+#: field:cmms.pm,recurrent:0
+msgid "Recurrent ?"
+msgstr "Récurrent ?"
+
+#. module: cmms
+#: code:addons/cmms/object/pm.py:80
+#, python-format
+msgid "Overtaked"
+msgstr "Dépassé"
+
+#. module: cmms
+#: field:cmms.archiving,name:0
+#: field:cmms.archiving2,name:0
+msgid "effect"
+msgstr "effet"
+
+#. module: cmms
+#: view:cmms.equipment:0
+msgid "Additional information"
+msgstr "Information complémentaire"
+
+#. module: cmms
+#: field:cmms.intervention,type:0
+msgid "Intervention type"
+msgstr "Type d'intervention"
+
+#. module: cmms
+#: model:ir.actions.act_window,name:cmms.open_view_pm_new
+#: model:ir.ui.menu,name:cmms.menu_open_view_pm_new
+msgid "New preventive maintenance"
+msgstr "Maintenance préventive"
+
+#. module: cmms
+#: model:ir.ui.menu,name:cmms.menu_open_view_pm_list
+msgid "preventive maintenance"
+msgstr "Maintenance préventive"
+
+#. module: cmms
+#: model:ir.actions.act_window,name:cmms.open_view_pm_list_my
+#: model:ir.ui.menu,name:cmms.menu_open_view_pm_list_my
+msgid "All preventives maintenances"
+msgstr "Maintenances préventives"
+
+#. module: cmms
+#: field:cmms.incident,ref:0
+msgid "Work order source"
+msgstr "Origine bon de travail"
+
+#. module: cmms
+#: selection:cmms.intervention,priority:0
+msgid "Urgent"
+msgstr "Urgent"
+
+#. module: cmms
+#: view:cmms.incident:0
+#: view:cmms.pm:0
+msgid "Follow-up history"
+msgstr "Historique"
+
+#. module: cmms
+#: view:cmms.checklist:0
+#: field:cmms.checklist,questions_ids:0
+#: view:cmms.checklist.history:0
+msgid "Questions"
+msgstr "Questions"
+
+#. module: cmms
+#: view:cmms.intervention:0
+#: model:cmms.request.link,name:cmms.line4
+#: model:ir.model,name:cmms.model_cmms_intervention
+#: model:ir.ui.menu,name:cmms.menu_open_view_intervention_list
+msgid "Intervention request"
+msgstr "Demande d'intervention"
+
+#. module: cmms
+#: selection:cmms.answer.history,answer:0
+msgid "Yes"
+msgstr "Oui"
+
+#. module: cmms
+#: help:cmms.pm,recurrent:0
+msgid "Mark this option if PM is periodic"
+msgstr "Cocher cette option si la MP est périodique"
+
+#. module: cmms
+#: field:cmms.incident,active:0
+msgid "Active?"
+msgstr "Active ?"
+
+#. module: cmms
+#: selection:cmms.answer.history,answer:0
+msgid "No"
+msgstr "Non"
+
+#. module: cmms
+#: field:cmms.equipment,trademark:0
+msgid "Trademark"
+msgstr "Marque"
+
+#. module: cmms
+#: field:cmms.answer.history,detail:0
+msgid "Detail"
+msgstr "Détail"
+
+#. module: cmms
+#: field:cmms.cm,archiving_ids:0
+#: field:cmms.incident,archiving3_ids:0
+msgid "follow-up history"
+msgstr "Historique"
+
+#. module: cmms
+#: selection:cmms.checklist.history,status:0
+#: selection:cmms.incident,state:0
+msgid "Draft"
+msgstr "Brouillon"
+
+#. module: cmms
+#: selection:cmms.incident,priority:0
+#: selection:cmms.intervention,priority:0
+msgid "Low"
+msgstr "Basse"
+
+#. module: cmms
+#: model:ir.actions.act_window,name:cmms.open_view_request_link_list_my
+#: model:ir.ui.menu,name:cmms.menu_open_view_request_link_list_my
+msgid "All request link"
+msgstr "Liste des liens"
+
+#. module: cmms
+#: model:ir.model,name:cmms.model_cmms_pm
+msgid "Preventive Maintenance System"
+msgstr "Système de maintenance préventive"
+
+#. module: cmms
+#: model:ir.actions.act_window,name:cmms.open_view_intervention_new
+#: model:ir.ui.menu,name:cmms.menu_open_view_intervention_new
+msgid "New intervention request"
+msgstr "Demande d'intervention"
+
+#. module: cmms
+#: field:cmms.checklist.history,status:0
+#: field:cmms.pm,state:0
+msgid "Status"
+msgstr "Statut"
+
+#. module: cmms
+#: field:cmms.archiving3,name:0
+msgid "Objet"
+msgstr "Objet"
+
+#. module: cmms
+#: code:addons/cmms/object/pm.py:82
+#, python-format
+msgid "Approached"
+msgstr "En approche"
+
+#. module: cmms
+#: selection:cmms.incident,priority:0
+#: selection:cmms.intervention,priority:0
+msgid "Normal"
+msgstr "Normal"
+
+#. module: cmms
+#: field:cmms.answer.history,checklist_history_id:0
+#: view:cmms.checklist:0
+#: view:cmms.checklist.history:0
+#: field:cmms.checklist.history,checklist_id:0
+#: field:cmms.question,checklist_id:0
+msgid "Checklist"
+msgstr "Liste de contrôle"
+
+#. module: cmms
+#: field:cmms.cm,name:0
+msgid "CM reference"
+msgstr "Référence maintenance corrective"
+
+#. module: cmms
+#: field:cmms.intervention,priority:0
+msgid "priority"
+msgstr "priorité"
+
+#. module: cmms
+#: field:cmms.pm,days_next_due:0
+msgid "Next date"
+msgstr "Prochaine date"
+
+#. module: cmms
+#: field:cmms.equipment,active:0
+msgid "Active"
+msgstr "Active"
+
+#. module: cmms
+#: field:cmms.intervention,user2_id:0
+msgid "Recipient"
+msgstr "Destinataire"
+
+#. module: cmms
+#: view:cmms.pm:0
+msgid "Properties"
+msgstr "Propriétés"
+
+#. module: cmms
+#: model:ir.actions.act_window,name:cmms.open_view_equipment_new
+#: model:ir.ui.menu,name:cmms.menu_open_view_equipment_new2
+msgid "New unit of work"
+msgstr "Nouvelle machine"
+
+#. module: cmms
+#: model:ir.actions.act_window,name:cmms.cmms_checklist_action_new
+#: model:ir.ui.menu,name:cmms.menu_cmms_checklist_new
+msgid "New checklist"
+msgstr "Liste de contrôle"
+
+#. module: cmms
+#: view:cmms.cm:0
+msgid "CM"
+msgstr "Maintenance corrective"
+
+#. module: cmms
+#: view:cmms.equipment:0
+#: field:cmms.equipment,safety:0
+msgid "Safety instruction"
+msgstr "Consignes de sécurité"
+
+#. module: cmms
+#: model:cmms.request.link,name:cmms.line3
+#: model:ir.model,name:cmms.model_cmms_checklist
+#: model:ir.ui.menu,name:cmms.menu_cmms_checklist_history
+msgid "checklist"
+msgstr "Liste de contrôle"
+
+#. module: cmms
+#: field:cmms.pm,days_interval:0
+msgid "Interval"
+msgstr "Intervalle"
+
+#. module: cmms
+#: field:cmms.checklist.history,date_planned:0
+msgid "Planned date"
+msgstr "Date planifiée"
+
+#. module: cmms
+#: view:cmms.incident:0
+msgid "Incident description"
+msgstr "Description panne"
+
+#. module: cmms
+#: field:cmms.archiving,date:0
+#: field:cmms.archiving2,date:0
+#: field:cmms.archiving3,date:0
+#: field:cmms.cm,date:0
+#: field:cmms.intervention,date:0
+msgid "Date"
+msgstr "Date"
+
+#. module: cmms
+#: model:ir.actions.act_window,name:cmms.open_view_intervention_list_my
+#: model:ir.ui.menu,name:cmms.menu_open_view_intervention_list_my
+msgid "All intervention requests"
+msgstr "Demandes d'interventions"
+
+#. module: cmms
+#: field:cmms.equipment,startingdate:0
+msgid "Starting date"
+msgstr "Date de mise en service"
+
+#. module: cmms
+#: view:cmms.incident:0
+msgid "History"
+msgstr "Historique"
+
+#. module: cmms
+#: field:cmms.checklist.history,date_end:0
+msgid "End date"
+msgstr "Date de fin"
+
+#. module: cmms
+#: field:cmms.failure,code:0
+msgid "Code"
+msgstr "Code"
+
+#. module: cmms
+#: model:ir.actions.act_window,name:cmms.cmms_incident_act_draft
+#: model:ir.ui.menu,name:cmms.menu_cmms_incident_act_draft
+msgid "Draft work orders"
+msgstr "Bons de travail brouillon"
+
+#. module: cmms
+#: selection:cmms.intervention,type:0
+msgid "Revision"
+msgstr "Révision"
+
+#. module: cmms
+#: view:cmms.cm:0
+#: field:cmms.cm,diagnosistab_ids:0
+msgid "Diagnosis Table"
+msgstr "Table des diagnostics"
+
+#. module: cmms
+#: view:cmms.incident:0
+msgid "General"
+msgstr "Général"
+
+#. module: cmms
+#: selection:cmms.checklist.history,status:0
+#: selection:cmms.incident,state:0
+msgid "Done"
+msgstr "Clôturé"
+
+#. module: cmms
+#: field:cmms.pm,meter:0
+msgid "Unit of measure"
+msgstr "Unité de mesure"
+
+#. module: cmms
+#: model:ir.ui.menu,name:cmms.menu_open_view_incident_list
+msgid "Work order"
+msgstr "Bon de travail"
+
+#. module: cmms
+#: view:cmms.equipment:0
+msgid "Codes"
+msgstr "Codes"
+
+#. module: cmms
+#: field:cmms.intervention,date_inter:0
+msgid "Intervention date"
+msgstr "Date d'intervention"
+
+#. module: cmms
+#: field:cmms.intervention,name:0
+msgid "Intervention reference"
+msgstr "Référence intervention"
+
+#. module: cmms
+#: model:ir.ui.menu,name:cmms.menu_open_view_cm_list
+msgid "corrective maintenance"
+msgstr "Maintenance corrective"
+
+#. module: cmms
+#: model:ir.model,name:cmms.model_cmms_checklist_history
+msgid "Checklist History"
+msgstr "Historique listes de contrôle"
+
+#. module: cmms
+#: model:ir.actions.act_window,name:cmms.open_view_equipment_list_my
+#: model:ir.ui.menu,name:cmms.menu_open_view_equipment_list_my
+msgid "All units of work"
+msgstr "Liste des machines"
+
+#. module: cmms
+#: view:cmms.equipment:0
+#: view:cmms.intervention:0
+msgid "General information"
+msgstr "Information générale"
+
+#. module: cmms
+#: selection:cmms.intervention,priority:0
+#: selection:cmms.intervention,type:0
+msgid "Other"
+msgstr "Autres"
+
+#. module: cmms
+#: model:ir.ui.menu,name:cmms.menu_cmms
+msgid "CMMS"
+msgstr "GMAO"
+
+#. module: cmms
+#: model:ir.model,name:cmms.model_cmms_cm
+msgid "Corrective Maintenance System"
+msgstr "Système de maintenance corrective"
+
+#. module: cmms
+#: model:ir.actions.act_window,name:cmms.cmms_checklist_history_action_new
+#: model:ir.ui.menu,name:cmms.menu_cmms_checklist_history_new
+msgid "Fill a checklist"
+msgstr "Remplir une liste de contrôle"
+
+#. module: cmms
+#: field:cmms.equipment,invoice_id:0
+msgid "Purchase invoice"
+msgstr "Facture d'achat"
+
+#. module: cmms
+#: field:cmms.incident,date:0
+msgid "Work order date"
+msgstr "Date bon de travail"
+
+#. module: cmms
+#: field:cmms.intervention,date_end:0
+msgid "Intervention end date"
+msgstr "Date de fin d'intervention"
+
+#. module: cmms
+#: field:cmms.archiving,description:0
+#: field:cmms.archiving2,description:0
+#: field:cmms.archiving3,description:0
+#: field:cmms.checklist,description:0
+msgid "Description"
+msgstr "Description"
+
+#. module: cmms
+#: model:ir.module.module,description:cmms.module_meta_information
+msgid ""
+"\n"
+"Computerized maintenance management system module allow you to manage \n"
+"preventives and corrective maintenance without limit.\n"
+"All informations is linked to the equipment tree and let you follow \n"
+"maintenance operation :\n"
+" - Repair.\n"
+" - Check up List.\n"
+" - ...\n"
+"With this module you can following all equipment type.\n"
+msgstr ""
+"\n"
+"Computerized maintenance management system module allow you to manage \n"
+"preventives and corrective maintenance without limit.\n"
+"All informations is linked to the equipment tree and let you follow \n"
+"maintenance operation :\n"
+" - Repair.\n"
+" - Check up List.\n"
+" - ...\n"
+"With this module you can following all equipment type.\n"
+
+#. module: cmms
+#: model:ir.model,name:cmms.model_cmms_equipment
+msgid "equipment"
+msgstr "équipement"
+
+#. module: cmms
+#: model:ir.model,name:cmms.model_cmms_request_link
+msgid "cmms.request.link"
+msgstr "cmms.request.link"
+
+#. module: cmms
+#: view:cmms.failure:0
+msgid "failure"
+msgstr "Panne"
+
+#. module: cmms
+#: model:ir.model,name:cmms.model_cmms_archiving2
+msgid "PM follow-up history"
+msgstr "Historique maintenances préventives"
+
+#. module: cmms
+#: model:ir.ui.menu,name:cmms.menu_cmms_checklist_history_all
+msgid "Checklists follow-up"
+msgstr "Suivi des listes de contrôle"
+
+#. module: cmms
+#: model:ir.actions.act_window,name:cmms.cmms_incident_act_open
+#: model:ir.ui.menu,name:cmms.menu_cmms_incident_act_open
+msgid "Opened work orders"
+msgstr "Bons de travail ouverts"
+
+#. module: cmms
+#: field:cmms.equipment,name:0
+#: field:cmms.request.link,name:0
+msgid "Name"
+msgstr "Nom"
+
+#. module: cmms
+#: field:cmms.equipment,line_id:0
+#: view:cmms.line:0
+#: field:cmms.line,name:0
+#: model:ir.model,name:cmms.model_cmms_line
+#: model:ir.ui.menu,name:cmms.menu_open_view_line_list
+msgid "Production line"
+msgstr "Ligne de production"
+
+#. module: cmms
+#: field:cmms.archiving,cm2_id:0
+#: field:cmms.archiving2,pm_id:0
+msgid "Archiving"
+msgstr "Historisation"
+
+#. module: cmms
+#: model:ir.model,name:cmms.model_cmms_diagnosistab
+msgid "Diagnosis List"
+msgstr "Liste des diagnostics"
+
+#. module: cmms
+#: field:cmms.diagnosistab,solution:0
+msgid "Solution"
+msgstr "Solution"
+
+#. module: cmms
+#: model:ir.actions.act_window,name:cmms.cmms_checklist_history_action_all
+#: model:ir.ui.menu,name:cmms.menu_cmms_checklist_all
+msgid "All checklists"
+msgstr "Toutes les listes de contrôle"
+
+#. module: cmms
+#: field:cmms.failure,description:0
+msgid "failure description"
+msgstr "Description panne"
+
+#. module: cmms
+#: model:ir.actions.act_window,name:cmms.cmms_checklist_action_all
+msgid "All checklist"
+msgstr "Listes de contrôle"
+
+#. module: cmms
+#: field:cmms.answer.history,answer:0
+msgid "response"
+msgstr "Réponse"
+
+#. module: cmms
+#: field:cmms.diagnosistab,name:0
+msgid "Failure causes"
+msgstr "Causes de panne"
+
+#. module: cmms
+#: field:cmms.line,sequence:0
+msgid "Sequence"
+msgstr "Séquence"
+
+#. module: cmms
+#: selection:cmms.incident,priority:0
+msgid "High"
+msgstr "Haute"
+
+#. module: cmms
+#: field:cmms.archiving3,user_id:0
+#: field:cmms.checklist.history,user_id:0
+#: field:cmms.equipment,user_id:0
+#: field:cmms.incident,user_id:0
+msgid "Manager"
+msgstr "Responsable"
+
+#. module: cmms
+#: view:cmms.pm:0
+msgid "MP parameters "
+msgstr "Paramètres maintenance préventive"
+
+#. module: cmms
+#: field:cmms.pm,days_warn_period:0
+msgid "Warning date"
+msgstr "Date d'alerte"
+
+
