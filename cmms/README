@@ -1,12 +1,15 @@
-OpenERP module : cmms_v7
+odoo module : cmms version 8
 
-Copyright (c) 
+new functionalities (workflow, mailling ...)
+
+Ported and modified by :
+----------------------
     2015 - Ait-Mlouk Addi , aitmlouk@gmail.com (http://it-freelance.esy.es/)
 
 
 Required dependencies
 ---------------------
- - An odoo 8 environment.
+ An odoo 8 environment.
  Modules :["base", "product", "stock", "account", "mail"]
 
 Description
@@ -22,20 +25,23 @@ With this module you can following all equipment type.
 
 Configuration
 -------------
-Just install the module in OpenERP version 7 environment.
+Just install the module in odoo version 8 environment.
 We hope it work for you.
 
 =======================
 -------------------------------------
-contactez moi :
+more information :
 ---------------------------------------
 Ait-Mlouk Addi (developpeur Junior Odoo (OpenERP)
 website : http://it-freelance.esy.es/
 Gmail: aitmlouk@gmail.com
-Tél  : 0672977726
-Facebook : Ait Mlouk Addi
+Phone  : 0672977726
+
 ​Profile  : http://www.doyoubuzz.com/addi-ait-mlouk
 Linkedin : http://ma.linkedin.com/pub/addi-ait-mlouk/56/850/32a
 Google   : https://plus.google.com/+AitMloukAddi
 Youtube  : https://www.youtube.com/user/mloukaddi/videos
+
+Facebook : Ait-Mlouk Addi
+facebook groupe : https://www.facebook.com/groups/1404616813151861/
 -----------------------------------------------------
