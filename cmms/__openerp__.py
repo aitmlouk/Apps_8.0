@@ -23,12 +23,12 @@
     "name": "CMMS",
     "version": "1.0",
     "depends": ["base", "product", "stock", "account", "mail"],
-    "author": "Ait-Mlouk Addi/heonium - Nextma",
+    "author": "Ait-Mlouk Addi",
     'website': 'http://it-freelance.esy.es/',
     'sequence':1,
     "category": "Specific Modules/CMMS",
     'icon': '/cmms/static/src/img/icon.png',
-    'summary' : 'Intervention, corrective maintenance, preventive maintenance',
+    'summary' : 'Corrective maintenance, Preventive maintenance, Intervention',
     "description": """
 Computerized maintenance management system module allow you to manage 
 preventives and corrective maintenance without limit.
@@ -53,6 +53,7 @@ For more information:
         'res_config_view.xml',
         'cmms_dashboard_view.xml', 
         'security/cmms_security.xml',
+        'security/ir.model.access.csv',
         'data/cmms_demo.xml',
         'data/cmms_sequence.xml',
         'cmms_menu.xml',

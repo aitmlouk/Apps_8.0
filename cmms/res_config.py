@@ -92,6 +92,52 @@ class cmms_parameter_mail(osv.osv):
     
 cmms_parameter_mail()
 
+class cmms_parameter_option(osv.osv):
+
+    _name='cmms.parameter.option'
+    _description=u"Paramètres"
+    _columns = {
+            'name' : fields.char(u'Type',size=180,required=True,readonly=True),
+            'value' : fields.boolean(u'réponse'),
+            'is_param' : fields.boolean(u'Paramètre'),
+            'module' : fields.char(u'Module',size=100),
+            }
+    
+    _defaults = {  
+        'is_param': lambda *a: False,
+        }
+    
+    def get_value_by_reference(self,cr,uid,module,reference_param,context={}):
+        u"""récupère la valeur du paramètre"""
+        if reference_param:
+            object_model_data=self.pool.get('ir.model.data')
+            if object_model_data:
+                param_id = False
+                param_model, param_id = object_model_data.get_object_reference(cr, uid, module, reference_param)
+                if param_id:
+                    object_param=self.browse(cr,uid,param_id)
+                    if object_param:
+                        return object_param.value or False
+        return False
+    
+    def create(self, cr, user, vals, context=None):
+        u"""méthode de création"""
+        flag_travel = vals.get('is_param',False)
+        if flag_travel:
+            return super(cmms_parameter_option, self).create(cr, user, vals, context)  
+        else:
+            raise osv.except_osv(_(u'Création impossible'), _(u'Vous ne pouvez pas créer de paramètres, ils sont définis nativement'))
+
+    def copy(self, cr, uid, id, default=None, context={}):
+        u"""méthode de copie"""
+        raise osv.except_osv(_(u'Copie impossible'), _(u'Vous ne pouvez pas copier de paramètres, ils sont définis nativement'))
+
+    def unlink(self, cr, uid, ids, context=None):
+        u"""méthode de suppression"""
+        raise osv.except_osv(_(u'Suppression impossible'), _(u'Vous ne pouvez pas supprimer de paramètres, ils sont définis nativement'))
+    
+cmms_parameter_option()
+
 class cmms_config_settings(osv.osv_memory):
     _name = 'cmms.config.settings'
     _inherit = 'res.config.settings'

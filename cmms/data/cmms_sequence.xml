@@ -9,7 +9,7 @@
         <record id="seq_cmms_incident" model="ir.sequence">
             <field name="name">cmms incident</field>
             <field name="code">cmms.incident</field>
-            <field name="prefix">Intervention card-</field>
+            <field name="prefix">BON-</field>
             <field name="padding">5</field>
         </record>
 

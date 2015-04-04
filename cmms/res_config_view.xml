@@ -59,6 +59,33 @@
             </field>
     </record>
      
-     
+         <!-- ============================  parameter options ================================================================= -->
+    
+    <!-- search -->
+    
+    <record model="ir.ui.view" id="cmms_parameter_option_search">
+            <field name="name">cmms.parameter.option.search</field>
+            <field name="model">cmms.parameter.option</field>
+            <field name="type">search</field>
+            <field name="arch" type="xml">
+                <search string="Recherche options">
+                    <field name="name"/>
+                </search>
+            </field>
+    </record>
+    
+    <!-- tree -->
+    
+    <record model="ir.ui.view" id="cmms_parameter_option_tree">
+            <field name="name">cmms.parameter.option.tree</field>
+            <field name="model">cmms.parameter.option</field>
+            <field name="type">tree</field>
+            <field name="arch" type="xml">
+                <tree string="Paramétrage des options" editable="bottom">
+                	<field name="name"/>
+                    <field name="value" />
+                </tree>
+            </field>
+    </record>
     </data>
 </openerp>

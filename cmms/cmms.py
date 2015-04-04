@@ -193,7 +193,7 @@ class cmms_intervention(osv.osv):
                 """
         for object_inter in self.browse(cr,uid,ids):
             if not object_inter.user2_id.login:
-                raise osv.except_osv(u'email non spécifiée', u'Veuillez indiquer lemail de Destinataire')
+                raise osv.except_osv(u'Email non spécifiée', u'Veuillez indiquer l\'email de Destinataire')
             if object_inter.user2_id.login:
                     text_inter = text_inter %(
                                                        object_inter.user2_id.name,
@@ -219,7 +219,6 @@ class cmms_intervention(osv.osv):
                             )
                                    
         self.pool.get('cmms.parameter.mail').send_email(cr,uid,data_email,module='cmms',param='cmms_event_mail')      
-        self.write(cr,uid,ids,{'test' : True})
         
 """fin"""
 
@@ -366,13 +365,13 @@ class cmms_pm(osv.osv):
         if ids:
             reads = self.browse(cr, uid, ids, context)
             for record in reads:    
-                if record.meter == 'days':
+                if record.meter == u'days':
                     if record.days_left <= 0:
-                        res[record.id] = 'Overtaked'
+                        res[record.id] = u'Dépassé'
                     elif record.days_left <= record.days_warn_period:
-                        res[record.id] = 'Approached'
+                        res[record.id] = u'Approché'
                     else:
-                        res[record.id] = 'OK'
+                        res[record.id] = u'OK'
             return res
 
     def create(self, cr, user, vals, context=None):
@@ -472,8 +471,8 @@ class cmms_checklist_history(osv.osv):
     def action_done(self, cr, uid, ids, context=None):
         return self.write(cr,uid,ids,{'state' : 'done'})
     
-    def action_cancel(self, cr, uid, ids, context=None):
-        return self.write(cr,uid,ids,{'state' : 'cancel'})
+    def action_confirmed(self, cr, uid, ids, context=None):
+        return self.write(cr,uid,ids,{'state' : 'confirmed'})
     
     def action_draft(self, cr, uid, ids, context=None):
         return self.write(cr,uid,ids,{'state' : 'draft'})
@@ -486,7 +485,7 @@ class cmms_checklist_history(osv.osv):
         'date_end': fields.datetime("End date"), 
         'equipment_id': fields.many2one('cmms.equipment', 'Unit of work'),
         'user_id': fields.many2one('res.users', 'Manager'),
-        'state': fields.selection([('draft', 'Draft'), ('confirmed', 'Confirmed'),('done', 'Done')], "Status"),
+        'state': fields.selection([('draft', 'Brouillon'), ('confirmed', 'Confirmé'),('done', 'Validé')], "Status"),
         }
     _defaults = {
         'state' : lambda *a: 'draft',

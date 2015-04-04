@@ -2,7 +2,7 @@ id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
 access_cmms_line_user,cmms.line,model_cmms_line,group_cmms_user,1,1,0,0
 access_cmms_equipment_user,cmms.equipment,model_cmms_equipment,group_cmms_user,1,1,0,0
 access_cmms_intervention_user,cmms.intervention,model_cmms_intervention,group_cmms_user,1,1,0,0
-access_cmms_request_link_user,cmms.request.link,model_cmms_request.link,group_cmms_user,1,1,0,0
+access_cmms_request_link_user,cmms.request.link,model_cmms_request_link,group_cmms_user,1,1,0,0
 access_cmms_incident_user,cmms.incident,model_cmms_incident,group_cmms_user,1,1,0,0
 access_cmms_archiving3_user,cmms.archiving3,model_cmms_archiving3,group_cmms_user,1,1,0,0
 access_cmms_pm_user,cmms.pm,model_cmms_pm,group_cmms_user,1,1,0,0
@@ -20,7 +20,7 @@ access_cmms_archiving_user,cmms.archiving,model_cmms_archiving,group_cmms_user,1
 access_cmms_line_manager,cmms.line,model_cmms_line,group_cmms_manager,1,1,1,1
 access_cmms_equipment_manager,cmms.equipment,model_cmms_equipment,group_cmms_manager,1,1,1,1
 access_cmms_intervention_manager,cmms.intervention,model_cmms_intervention,group_cmms_manager,1,1,1,1
-access_cmms_request_link_manager,cmms.request.link,model_cmms_request.link,group_cmms_manager,1,1,1,1
+access_cmms_request_link_manager,cmms.request.link,model_cmms_request_link,group_cmms_manager,1,1,1,1
 access_cmms_incident_manager,cmms.incident,model_cmms_incident,group_cmms_manager,1,1,1,1
 access_cmms_archiving3_manager,cmms.archiving3,model_cmms_archiving3,group_cmms_manager,1,1,1,1
 access_cmms_pm_manager,cmms.pm,model_cmms_pm,group_cmms_manager,1,1,1,1
