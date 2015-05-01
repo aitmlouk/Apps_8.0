@@ -42,7 +42,7 @@ With this module you can following all equipment type.
 For more information:
 
  - Gmail: aitmlouk@gmail.com
- - website : http://it-freelance.esy.es/
+ - website : http://odoo-services.esy.es/
 
 """,
 
