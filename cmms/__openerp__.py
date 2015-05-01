@@ -24,7 +24,7 @@
     "version": "1.0",
     "depends": ["base", "product", "stock", "account", "mail"],
     "author": "Ait-Mlouk Addi",
-    'website': 'http://it-freelance.esy.es/',
+    'website': 'http://odoo-services.esy.es/',
     'sequence':1,
     "category": "Specific Modules/CMMS",
     'icon': '/cmms/static/src/img/icon.png',
