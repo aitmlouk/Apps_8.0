@@ -431,7 +431,7 @@
             <field name="model">cmms.checklist.history</field>
             <field name="type">tree</field>
             <field name="arch" type="xml">
-                <tree string="Checklist"  colors="red:date_planned&lt;=current_date and status=='draft';orange:date_planned&lt;=current_date and status=='confirmed'">
+                <tree string="Checklist"  colors="red:date_planned&lt;=current_date; red:state=='draft';orange:date_planned&lt;=current_date; orange:state=='confirmed'">
                     <field name="name" />
                     <field name="checklist_id" />
                     <field name="user_id" />

@@ -24,7 +24,7 @@
     "version": "1.0",
     "depends": ["base", "product", "stock", "account", "mail"],
     "author": "Ait-Mlouk Addi",
-    'website': 'http://odoo-services.esy.es/',
+    'website': 'http://www.aitmlouk-addi.info/',
     'sequence':1,
     "category": "Specific Modules/CMMS",
     'icon': '/cmms/static/src/img/icon.png',
@@ -42,7 +42,7 @@ With this module you can following all equipment type.
 For more information:
 
  - Gmail: aitmlouk@gmail.com
- - website : http://odoo-services.esy.es/
+ - website : http://www.aitmlouk-addi.info/
 
 """,
 
