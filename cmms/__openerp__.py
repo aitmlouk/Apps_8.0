@@ -3,7 +3,7 @@
 #
 # Computerized maintenance management system (CMMS) module,
 # Copyright (C) 
-#    2015 - Ait-Mlouk Addi , (http://odoo-services.esy.es/)-- aitmlouk@gmail.com --
+#    2015 - Ait-Mlouk Addi , (http://www.aitmlouk.info/)-- aitmlouk@gmail.com --
 #    
 # CMMS module is free software: you can redistribute
 # it and/or modify it under the terms of the Affero GNU General Public License
@@ -24,7 +24,7 @@
     "version": "1.0",
     "depends": ["base", "product", "stock", "account", "mail"],
     "author": "Ait-Mlouk Addi",
-    'website': 'http://www.aitmlouk-addi.info/',
+    'website': 'http://www.aitmlouk.info/',
     'sequence':1,
     "category": "Specific Modules/CMMS",
     'icon': '/cmms/static/src/img/icon.png',
@@ -40,9 +40,6 @@ maintenance operation :
 With this module you can following all equipment type.
 
 For more information:
-
- - Gmail: aitmlouk@gmail.com
- - website : http://www.aitmlouk-addi.info/
 
 """,
 
